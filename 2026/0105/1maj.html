@@ -209,7 +209,7 @@ function hm(id) {
 			<br>
 			Dodałem tą funkcjonalność z powodu tego, że wersja 6.0 wymaga wstępnej weryfikacji - coś w stylu CAPTCHA - przy rejestracji konta, gdzie klienty przed 6.0 (5.0.3 i starsze) nie miały tego. Mimo że dodałem coś takiego, to w podaniu, w miejscu tokenu pokazuje śmieci - pewnie to problem przez URL-encoded a wpisuje plain-text. <i>To się poprawi później...</i><br><br>
 			Najważniejszym celem to żebym dodał sposób rejestracji dla klientów 5.0-6.0, a przed dodaniem wsparcia dla klienta 7.0 - dodać sposób zdalnego podglądu bazy danych - być może zrobiłbym mini-serwer HTTP na localhost, żeby można było wpisać coś w stylu:<br><br>
-			<div class="code">
+			<pre class="code">
 			[URL: http://127.0.0.1:2323/db/users]
 			┌──────────────────────────────────────────────────────────────────┐<BR>
 			│ BAZA DANYCH OPENGADUSERVER - LISTA ZAREJESTROWANYCH UŻYTKOWNIKOW │<BR>
@@ -217,7 +217,7 @@ function hm(id) {
 			│ 10000041 │.....TAK.....│....DOSTĘPNY....│ 5.0.3.134 │############│<br>
 			├──────────────────────────────────────────────────────────────────┤<BR>
 			└────Copyright (C) Jakkret 2026──OpenGaduServer Database Dashboard─┘
-			</div><br>
+			</pre><br>
 			Oczywiście to jest prowizorka, spróbowałbym napisać to w htmlu ;)<br><br>
 			<b>5 Maj 2026</b>
 			Jeszcze dokonałem zakupu boxowanej wersji Windows Small Business Server 2003 Premium! chyba zacznę kolekcjonować takie boxy.. zobaczymy.
